@@ -50,7 +50,11 @@ reuben[2] = "Chicago";
 //5.
 jim[2] = "Denver, Ny, Paris";
 
-
+//6. Yell at Ninja Turtle
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+for(i = 0; i < ninjaTurtles.length; i++){
+    console.log(ninjaTurtles[i].toUpperCase);
+}
 
 
 
