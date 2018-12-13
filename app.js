@@ -57,7 +57,11 @@ for(i = 0; i < ninjaTurtles.length; i++){
 }
 
 //7. Return of the closets
-console.log("Answer for no. 7 here!!")
+console.log("Answer for no. 7 here!!");
+
+//8. 
+console.log("Answer for no. 8 here");
+
 
 
 
