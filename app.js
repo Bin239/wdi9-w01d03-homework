@@ -50,11 +50,19 @@ reuben[2] = "Chicago";
 //5.
 jim[2] = "Denver, Ny, Paris";
 
-//6. Yell at Ninja Turtle
+//6. Yell at Ninja Turtle/pretty sure i didnt get this right
 const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 for(i = 0; i < ninjaTurtles.length; i++){
     console.log(ninjaTurtles[i].toUpperCase);
 }
+
+//7. Return of the closets
+console.log("Answer for no. 7 here!!")
+
+
+
+
+
 
 
 
