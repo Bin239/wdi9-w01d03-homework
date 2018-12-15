@@ -93,18 +93,17 @@ const kristynsCloset = [
   ];
 
   //1.
-  var kristynsShoes = kristynsCloset.shift();
+  const kristynsShoes = kristynsCloset.shift();
   console.log(kristynsCloset);
 
   //2. 
-  
-
-
-
-  
 
 //8. 
-console.log("Answer for no. 8 here");
+
+for(let i = 0; i < kristynsCloset.length; i++){
+}
+console.log("WHIRR: Now washing " + kristynsCloset[i]);
+
 
 //9.
 let multipleNum = 0;
