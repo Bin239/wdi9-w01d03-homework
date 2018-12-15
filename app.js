@@ -11,12 +11,14 @@ for(let i=0; i < 201; i +=2){
 
 
 //3.
-let catTalk = "Love me, pet me! HSSSSSSS!";
+
+const catMessage = ["Human!! Why you taking picture of me?", "...the catnip made me do it", "why does the red dot always go away"];
 for(let i = 0; i < 20; i++){
-    console.log(catTalk);
+    if(i % 2 == 0){
+    const randomNumberUptoThree = Math.floor(Math.random()* 3)
+    console.log(catMessage[randomNumberUptoThree]);
 }
-
-
+}
 //4.
 for(let i = 0; i < 101; i++){
     if(i % 3 === 0 && i % 5 === 0){
@@ -48,19 +50,72 @@ ryan[2] = "Gotham City";
 //4.
 reuben[2] = "Chicago";
 //5.
-jim[2] = "Denver, Ny, Paris";
+jim[2] = ("Denver", "Ny", "Paris");
+
+console.log(daniel); console.log(jim); console.log(reuben); console.log(daniel); console.log(ryan);
 
 //6. Yell at Ninja Turtle/pretty sure i didnt get this right
 const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 for(i = 0; i < ninjaTurtles.length; i++){
-    console.log(ninjaTurtles[i].toUpperCase);
+    console.log(ninjaTurtles[i].toUpperCase());
 }
 
 //7. Return of the closets
-console.log("Answer for no. 7 here!!");
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+  
+  // Thom's closet is more complicated. Check out this nested data structure!!
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+  //1.
+  var kristynsShoes = kristynsCloset.shift();
+  console.log(kristynsCloset);
+
+  //2. 
+  
+
+
+
+  
 
 //8. 
 console.log("Answer for no. 8 here");
+
+//9.
+let multipleNum = 0;
+for(let i = 0; i < 1001; i++){
+    if(i % 3 === 0 || i % 5 === 0){
+        multipleNum += i;
+    }
+}
+
+console.log(multipleNum);
+
 
 
 
